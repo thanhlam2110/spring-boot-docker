@@ -1,0 +1,6 @@
+# Build
+docker build -t spring-boot-docker .
+# Run
+docker run -p 8080:8080 spring-boot-docker
+# Test
+http://193.206.183.90:8080/message
